@@ -19,7 +19,7 @@ public class PasswordControl
         String res = "";
 
         //Size above 7:
-        if( passIn.length()<7 ){
+        if (passIn.length() <= 7) {
             res = "Too short";
         }
         
