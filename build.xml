@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="JUnit_Simple_Password_Checker" default="default" basedir=".">
-    <description>Builds, tests, and runs the project JUnit Simple Password Checker.</description>
+<project name="JUnit_Simple_Password_Checker_ORIGINAL" default="default" basedir=".">
+    <description>Builds, tests, and runs the project JUnit Simple Password Checker ORIGINAL.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="JUnit_Simple_Password_Checker-impl.jar">
+        <target name="run" depends="JUnit_Simple_Password_Checker_ORIGINAL-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
